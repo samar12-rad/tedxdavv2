@@ -7,13 +7,13 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background-color: black;
+  /* box-sizing: border-box; */
+  /* background-color: black; */
 }
 
 body{
-  position:fixed;
-  background-color: white;
+ padding: 0;
+ margin: 0;
 }
 
 
@@ -40,6 +40,12 @@ body{
 .font-inter-light{
   font-family: helvetica, Inter;
   font-weight: lighter;
+}
+
+@media screen and (max-width: 800px)  {
+  body {
+    font-size: 15px !important;
+  }
 }
 
 .stroke{
