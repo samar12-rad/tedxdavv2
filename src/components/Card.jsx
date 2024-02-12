@@ -77,7 +77,7 @@ export default function Card(props){
 
     return(
         <div className='card-wrapper'><Tilt>
-            <div className='card'  >
+            <div className='shubh-card'  >
                 <div>
                     <h1 className='name'>{name}</h1>
                 </div>
@@ -90,11 +90,11 @@ export default function Card(props){
 
                     <div className='icons'>
                         <a href='' className='insta'>
-                            <img src={require('../images/instagram_1384063.png')} width='30px'></img>
+                            <img src={require('../Images/instagram_1384063.png')} width='30px'></img>
                         </a>
 
                         <a href='' className='linkedin'>
-                            <img src={require('../images/icons8-linkedin-144.png')} width='30px'></img>
+                            <img src={require('../Images/icons8-linkedin-144.png')} width='30px'></img>
                         </a>
                     </div>
 
