@@ -1,5 +1,5 @@
 .footer {
-     height: 65vh; 
+     height: auto; 
   width: 100%;
 
   bottom: 0;
@@ -83,7 +83,7 @@
     padding-bottom: 0.5rem;
 }
 .mailus input{
-    height: 1.5rem;
+    height: 2.5rem;
     width: 300px;
     padding: 0.5rem;
 }
