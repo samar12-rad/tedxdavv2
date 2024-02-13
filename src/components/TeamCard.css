@@ -1,8 +1,8 @@
-.card-wrapper{
+.teams-card-wrapper{
     padding: 20px;
 }
 
-.shubh-card{
+.teams-card{
     background: #020202;
     text-align: center;
     display: flex;
@@ -43,18 +43,18 @@
 
 @media screen and (min-width:992px) {
     
-    .card:hover .hoverCard{
+    .teams-card:hover .hoverCard{
         transform: scaleY(1);
     }
 
 
-    .card:hover .speakerImage{
+    .teams-card:hover .member-image{
         transform: translateY(-100%);
         scale: 0.4;
         border-radius: 100%;
     }
 
-    .card:hover h1{
+    .teams-card:hover h1{
         visibility: hidden;
     }
 }
@@ -66,27 +66,12 @@
     text-wrap: pretty;
 }
 
-.instaIcon{
-    position: relative;
-    align-self: center;
-}
-
-.commaTop, .commaBottom{
-    width: 20px;
-    position: relative;
-    margin: 0 auto;
-}
-
-.commaTop{
-    padding-top: 40px;
-}
-
-.name{
+.member-name{
     font-size: 24px;
     margin: 0px 0px 14px 0px;
     color: white;
 }
-.speakerImage{
+.member-image{
     transition: all;
     transition-duration: 0.6s;
     transition-timing-function:ease-in-out;
@@ -125,31 +110,29 @@
     height: 5px;
     background-color: #e62b1e;
 }
-.info{
+.team-card-info{
     position: relative;
     top: 10%;
-    opacity: 0;
+    opacity: 1;
 }
 
-.icons{
+.team-card-icons{
     position: relative;
     display: flex;
     gap: 30px;
     margin: 0% auto;
 }
-.insta, .linkedin{
+.member-insta, .member-linkedin{
     z-index: 20;
     background: #ffffff;
     transform: scale(1);
     transition: all 0.5s;
     opacity: 0.7;
     border-radius: 8px;
-}
-
-.insta, .linkedin{
     padding: 4px 4px 1px 4px;
 }
-.insta:hover, .linkedin:hover{
-    transform: scale(1.2);
-    
+
+
+.member-insta:hover, .member-linkedin:hover{
+    transform: scale(1.2);   
 }

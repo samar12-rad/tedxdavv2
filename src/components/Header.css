@@ -1,4 +1,4 @@
-.heading{
+.team-heading{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 
-.heading-words{
+.team-heading_words{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     display: flex;
     flex-direction: row;
@@ -35,17 +35,17 @@
 }
 
 @media screen and (max-width:480px) {
-    .heading-words{
+    .team-heading_words{
         font-size: 150px;
         margin-top: 0vh;
+    }
+    .meet{
+        transform: translateY(0vh);
     }
     .our{
         transform: translateY(0vh);
     }
     .teame{
-        transform: translateY(0vh);
-    }
-    .meet{
         transform: translateY(0vh);
     }
 }

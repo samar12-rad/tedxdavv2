@@ -1,4 +1,4 @@
-import Card from './Card';
+import TeamCard from './TeamCard';
 import { useState, useEffect, useRef } from 'react';
 import Header from './Header';
 import './Teams.css';
@@ -113,11 +113,11 @@ export default function Teams(props){
            </div>
 
             {/* team cards */}
-            <div className='cards-container'  ref={sectionRef}>
+            <div className='team-cards-container'  ref={sectionRef}>
                 {
                     coreTeam.map((member) => {
                         console.log(member.image)
-                        return (<Card  className={member.id} name={member.name} img={member.image} cuteness={member.cuteness}
+                        return (<TeamCard  className={member.id} name={member.name} img={member.image} cuteness={member.cuteness}
                         info={member.info} anger={member.anger} humour={member.humour} IQ={member.IQ} fun={member.fun} ig={member.ig}/>)
                     })
                 }
