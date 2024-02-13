@@ -1,11 +1,11 @@
-import './App.css';
+
 import Teams from './components/Teams';
 import Header from './components/Header';
 import Years from './components/Years';
 import data from './cardData.json';
 import { useState } from 'react';
 
-function App() {
+function ShubhanshTeams() {
 
   const [info ,setInfo] = useState(data);
 
@@ -19,7 +19,7 @@ function App() {
 
   
   return (
-    <div className="App">
+    <div className="subh">
       <div className='fixed-headings'>
           <Header/>
       </div>
@@ -32,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default ShubhanshTeams;

@@ -82,6 +82,7 @@ const Ticket = () => {
   return (
     <>
       {isMobile ? (
+        <div className="mobile-ticket-card">
         <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
           <div className="mfront">
             <div className="mobilef">
@@ -89,7 +90,7 @@ const Ticket = () => {
               <h1 className="swift-up-text">YOUR</h1>
               <h1 className="swift-up-text">TICKETS</h1>
               <h1 className="swift-up-text">Now</h1>
-              <button onClick={handleClick}>Get ticket details</button>
+              <button className="get-details" onClick={handleClick}>Get ticket details</button>
             </div>
           </div>
           <div className="mback">
@@ -105,6 +106,7 @@ const Ticket = () => {
             </div>
           </div>
         </ReactCardFlip>
+        </div>
       ) : (
         <div className="flip-card-container">
           <div className="card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
@@ -138,7 +140,7 @@ const Ticket = () => {
                   </p>
                   <button className={`back ${isFlipped ? "buynow" : ""}`}>
                     <img src={arrow} className="arrow" alt="arrow" />
-                    Buy Now
+                    <span className="buynow-text">Buy Now</span>
                   </button>
                   <img src={barcode} alt="" className="barcode" />
                   <div className="details1">

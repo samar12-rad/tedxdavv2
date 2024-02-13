@@ -1,8 +1,11 @@
 .navbar{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 16px;
     background-color: #000000;
+
     box-shadow: 0 1px 3px -2px black;
     align-items: center;
     z-index: 5555555555555;
@@ -23,11 +26,12 @@
     align-items: center;
     list-style: none;
     gap: 50px;
-    color: #ffffff;
+
     font-size: 20px;
     font-weight: 500;
     
 }
+
 .nav-menu li span:hover{
     color: #eb0028;
     text-shadow: 2px 2px 2px #161515;
@@ -36,22 +40,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     justify-content: center;
     gap: 3px;
     
     cursor: pointer;
 }
 .nav-menu li span{
-   transition: all 1s ease;
+   transition: all 2s ease;
 }
 
 .nav-menu hr {
     border: none;
-    width: 80%;
+    width: 100%;
     height: 3px;
     border-radius: 10px;
     background: #eb0028;
-    animation: wid 1s ;
+    animation: wid 2s ;
     transition: wid 1s;
 }
 .nav-menu .hr-transition {
@@ -67,7 +72,7 @@
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 100%;
     }
 }
 .nav-menu .hr-transition.active {
@@ -115,6 +120,7 @@
 @media (max-width:800px) {
     
     .navbar{
+        position: inherit;
         padding: 10px 0px;
         z-index: 55;
     }

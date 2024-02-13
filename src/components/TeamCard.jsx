@@ -83,11 +83,11 @@ export default function TeamCard(props){
 
                     <div className='team-card-icons'>
                         <a href='' className='member-insta'>
-                            <img src={require('../images/instagram_1384063.png')} width='30px'></img>
+                            <img src={require('../Images/instagram_1384063.png')} width='30px'></img>
                         </a>
 
                         <a href='' className='member-linkedin'>
-                            <img src={require('../images/icons8-linkedin-144.png')} width='30px'></img>
+                            <img src={require('../Images/icons8-linkedin-144.png')} width='30px'></img>
                         </a>
                     </div>
 

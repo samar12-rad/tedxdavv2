@@ -6,16 +6,9 @@
 	position: relative;
 }
 
-body {
-	display: grid;
-	place-content: center;
-	min-height: 100vh;
-	background: #000;
-}
 
-html, body {
-    overflow-x: hidden;
-}
+
+
 
 .container {
 	/* top:20%;

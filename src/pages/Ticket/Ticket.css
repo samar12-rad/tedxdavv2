@@ -1,10 +1,11 @@
+
 ::-webkit-scrollbar{
     display: none;
 }
 .flip-card-container{
     background-color: #252323;
     position: relative;
-    overflow: hidden;
+   
     transition: all 0.3s ease-in-out;
    
 }
@@ -12,7 +13,6 @@
     /* Add any additional styling to enhance the hover effect */
     transform: scale(1.02); /* Slightly scale up on hover */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
-    overflow: hidden;
   }
 .front{
     height: 60vh;
@@ -27,24 +27,20 @@
     width: 97%;
     margin: 20px 20px;
     box-shadow: 7px 7px 7px #131313;
-    overflow: hidden;
    background-color: rgb(0, 0, 0);
 }
 .ticket{
     overflow-y: hidden;
-    overflow: hidden;
 }
 .back{
     overflow-y: hidden;
-    overflow: hidden;
 }
 .backimg{
-    overflow: hidden;
+    
     width: 100%;
     height: 60vh;
    margin-left: auto;
    margin-right: auto;
-   overflow: hidden;
    
  
 }
@@ -152,10 +148,10 @@ span1 {
 }
 .barcode{
     position: absolute;
-    transform: scale(60%);
+    transform: scale(80%);
     rotate: -90deg;
-    bottom: -30px;
-   left: 22%;
+    bottom: 6%;
+   left: 39%;
 }
 .details1{
     display: flex;
@@ -196,7 +192,7 @@ span1 {
     justify-content: center;
     text-align: center;
     gap: 10px;
-    font-size: 20px;
+    
     animation: appear 3s;
     transition: 2s ;
 }
@@ -204,16 +200,21 @@ span1 {
     background-color: red;
     color: white;
 }
+.buynow-text{
+    color: #000000;
+    font-size: 20px;
+    transform: translateY(-10%);
+}
 .arrow{
-    width: 20px;
+    width: 25px;
     rotate: -90deg;
 }
 @media(max-width:1280px){
     .barcode{
        
-        transform: scale(55%);
-       left: 10vw;
-       bottom: -11%;
+        transform: scale(90%);
+       left: 39%;
+       bottom: 12%;
       
        
     }
@@ -229,7 +230,7 @@ span1 {
     
     
 }
-@media(max-width:1280px){
+@media(max-width:1080px){
     .ticketno{
         left: -7%;
     }
@@ -248,7 +249,9 @@ span1 {
         left: 83%;
     }
     .barcode{
-        left: 8%;
+        transform: scale(100%);
+        left: 40%;
+        bottom: 18%;
     }
 }
 
@@ -287,10 +290,19 @@ span1 {
   }
 
 /* mobile */
+.mobile-ticket-card{
+    position: relative;
+    background-color: #252323;
+    margin:  5%;
+    box-shadow: 10px 10px 5px #000000;
+  
+    height: 55vh;
+    
+}
 
 .mobile-ticket{
     position: relative;
-    height: 65vh;
+    height: 55vh;
     overflow-y: hidden;
     background-color: #252323;
     padding: 20px;
@@ -351,12 +363,13 @@ span1 {
     z-index: 2;
     position: absolute;
     left: 55%;
-   bottom:10%;
-   font-size: 30px;
+   bottom:8%;
+   font-size: 25px;
+   font-weight: bold;
    background-color: transparent;
    border: 2px solid white;
    color: white;
-   padding: 15px;
+   padding: 10px;
    transition: all 2s;
 }
 .mbutton:hover{
@@ -366,19 +379,25 @@ span1 {
 
 .mfront{
     position: relative;
-    height: 65vh;
+    height: 55vh;
     overflow-y: hidden;
+    
+   
     background-color: #252323;
-    padding: 20px;
-    padding-bottom: 20px;
+    box-shadow: 10px 10px 5px #0d0d0d;
+    
+    
+     
 }
+
 .mobilef{
     position: static;
     height: 600px;
     z-index: 1;
+   
     background-color: #000000;
     box-shadow: 10px 10px 5px #0d0d0d;
-   
+   align-items: center;
     
 }
 .mobilef p{
@@ -404,16 +423,16 @@ span1 {
     background-color: white;
 }
 .swift-up-text{
-    margin-top: 2%;
-    font-size: 72px;
+    margin-top: 10px;
+    font-size: 54px;
     color: rgb(255, 255, 255);
-    padding: 20px;
+    
     font-family: 'world conflict', sans-serif;
     text-align: center;
 }
 h1 {
     margin: 0;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     font-size: var(--headingSize);
   }
   

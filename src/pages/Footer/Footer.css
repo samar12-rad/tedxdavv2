@@ -141,11 +141,11 @@
     }
     .mailus .button{
         margin-top: 1rem;
-        line-height: 1.5rem;
+        line-height: 1.3rem;
     }
     .mailus input{
         width: 200px;
-        height: 23px;
+        height: 42px;
     }
     .socialmedia{
         width: 60vw;

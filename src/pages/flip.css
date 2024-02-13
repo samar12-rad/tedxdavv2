@@ -32,6 +32,7 @@ html {
     gap: 2rem;
   }
   .box-item {
+    margin-top: 75px;
       flex-basis: 45%;
     }
     .flip-box p {

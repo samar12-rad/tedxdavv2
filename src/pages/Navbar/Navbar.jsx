@@ -2,12 +2,17 @@ import React, { useRef, useState, useEffect } from 'react';
 import "./Navbar.css";
 import logo from '../../Images/logo-white 1.png';
 import Hamburger from 'hamburger-react';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("home");
+  const [menu, setMenu] = useState(() => {
+    // Get the menu item from local storage, if it exists
+    return localStorage.getItem('selectedMenu') || "home";
+  });
   const menuRef = useRef();
   const [isOpen, setOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 800);
+  const location = useLocation();
 
   useEffect(() => {
     const handleResize = () => {
@@ -16,13 +21,20 @@ const Navbar = () => {
 
     window.addEventListener('resize', handleResize);
 
-    // Cleanup the event listener when the component unmounts
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  
+  useEffect(() => {
+    // Update menu state when location changes
+    setMenu(location.pathname.slice(1) || "home");
+  }, [location]);
+
+  useEffect(() => {
+    // Save selected menu item to local storage
+    localStorage.setItem('selectedMenu', menu);
+  }, [menu]);
 
   const handleHamburgerClick = () => {
     setOpen(!isOpen);
@@ -32,6 +44,16 @@ const Navbar = () => {
     } else {
       menuRef.current.style.display = 'none';
     }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleMenuItemClick = (menuItem) => {
+    setMenu(menuItem);
+    setOpen(false);
+    scrollToTop();
   };
 
   return (
@@ -45,14 +67,15 @@ const Navbar = () => {
       )}
 
       <ul ref={menuRef} className={`nav-menu ${isOpen ? 'open' : ''}`}>
-        <li onClick={() => { setMenu("home") }} style={{ color: menu === "home" ? '#eb0028' : 'inherit', transition: "1s ease-out" }}><span>Home</span> {menu === "home" ? <hr /> : <></>} </li>
-        <li onClick={() => { setMenu("about") }} style={{ color: menu === "about" ? '#eb0028' : 'inherit', transition: "1s ease-out" }}><span>About</span> {menu === "about" ? <hr /> : <></>}</li>
-        <li onClick={() => { setMenu("gallery") }} style={{ color: menu === "gallery" ? '#eb0028' : 'inherit', transition: "1s ease-out" }}><span>Gallery</span> {menu === "gallery" ? <hr /> : <></>}</li>
-        <li onClick={() => { setMenu("team") }} style={{ color: menu === "team" ? '#eb0028' : 'inherit', transition: "1s ease-out" }}><span>Our Team</span> {menu === "team" ? <hr /> : <></>}</li>
-        <li className='con' onClick={() => { setMenu("contact") }} style={{ color: menu === "contact" ? '#eb0028' : 'inherit', transition: "1s ease-out" }}><span>Contact Us</span> {menu === "contact" ? <hr /> : <></>}</li>
+        <li onClick={() => handleMenuItemClick("home")} style={{ color: menu === "home" ? '#eb0028' : 'inherit', transition: "0.5s ease-out" }}><Link  style={{ textDecoration:'none',color: menu === "home" ? '#eb0028' : 'inherit', transition: "1s ease-out" }} to='/'><span>Home</span></Link> {menu === "home" ? <hr /> : <></>} </li>
+        <li onClick={() => handleMenuItemClick("about")} style={{ color: menu === "about" ? '#eb0028' : 'inherit', transition: "0.5s ease-out" }}><Link  style={{ textDecoration:'none',color: menu === "about" ? '#eb0028' : 'inherit', transition: "1s ease-out" }} to='/about'><span>About</span></Link> {menu === "about" ? <hr /> : <></>}</li>
+        <li onClick={() => handleMenuItemClick("gallery")} style={{ color: menu === "gallery" ? '#eb0028' : 'inherit', transition: "0.5s ease-out" }}><Link  style={{ textDecoration:'none',color: menu === "gallery" ? '#eb0028' : 'inherit', transition: "1s ease-out" }} to='/gallery'><span>Gallery</span></Link> {menu === "gallery" ? <hr /> : <></>}</li>
+        <li onClick={() => handleMenuItemClick("teams")} style={{ color: menu === "teams" ? '#eb0028' : 'inherit', transition: "0.5s ease-out" }}><Link  style={{ textDecoration:'none',color: menu === "teams" ? '#eb0028' : 'inherit', transition: "1s ease-out" }} to='/teams'><span>Our Team</span> </Link>{menu === "teams" ? <hr /> : <></>}</li>
+        <li className='con' onClick={() => { handleMenuItemClick("contact"); window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }) }} style={{ color: menu === "contact" ? '#eb0028' : 'inherit', transition: "1s ease-out", cursor: 'pointer' }}><span>Contact Us</span> {menu === "contact" ? <hr /> : <></>}</li>
       </ul>
     </div>
   );
 }
 
 export default Navbar;
+
