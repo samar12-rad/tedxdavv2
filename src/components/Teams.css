@@ -21,7 +21,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.cards-container{
+.team-cards-container{
     width: fit-content;
     position:relative;
     display: flex;
@@ -35,12 +35,8 @@
 
 
 @media screen and (max-width: 480px){
-    .cards-container{
+    .team-cards-container{
         transform: translateY(10vh);
     } 
 }
 
-
-.pin-spacer{
-    width: 100vw;
-}

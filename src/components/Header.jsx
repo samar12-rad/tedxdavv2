@@ -27,22 +27,22 @@ export default function Header(){
 
     return( 
         <div>
-            <h1 className='heading'>
-                <span className='heading-words meet' >
+            <h1 className='team-heading'>
+                <span className='team-heading_words meet' >
                     {
                         'Meet'.split('').map((word) => {
                             return word === '' ? <div className='word'>&nbsp;</div> : <div className='word'>{word}</div>
                         })
                     }
                 </span>
-                <span className='heading-words our'  >
+                <span className='team-heading_words our'  >
                 {
                     'Our'.split('').map((word) => {
                         return word === '' ? <div className='word'>&nbsp;</div> : <div className='word'>{word}</div>
                     })
                 }
                 </span>
-                <span className='heading-words teame'>
+                <span className='team-heading_words teame'>
                 {
                     'Team'.split('').map((word) => {
                         return word === '' ? <div className='word'>&nbsp;</div> : <div className='word'>{word}</div>
