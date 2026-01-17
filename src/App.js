@@ -1,20 +1,20 @@
 
 import './App.css';
 
-import Loader from './Components/Loader/Loader';
-import Footer from './Components/Footer/Footer';
+import Loader from './components/Loader/Loader';
+import Footer from './components/Footer/Footer';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Changed import statement
-import Navbar from './Components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 import HeroParallax from "./pages/Gallery/hero-parallax"
-import Main from "./Components/Main/Main";
-import TeamSection from "./Components/shubhansh files/TeamSection"
-import Subh from "./Components/Subhanshpage/Subh";
+import Main from "./components/Main/Main";
+import TeamSection from "./components/shubhansh files/TeamSection"
+import Subh from "./components/Subhanshpage/Subh";
 
 import React, { useState, useEffect } from 'react';
-import Buy from './Components/Buynow/Buy';
-import Layout from './Components/Buynow/Layout';
+import Buy from './components/Buynow/Buy';
+import Layout from './components/Buynow/Layout';
 
 function App() {
   const [showLoader, setShowLoader] = useState(true);

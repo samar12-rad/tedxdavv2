@@ -1,5 +1,5 @@
 {
-    "2024":{
+    "2024": {
         "Web-Dev Team": [
             {
                 "id": "Web-Dev-Team",
@@ -7,178 +7,189 @@
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/YfeCrkU.jpeg",
                 "ig": "",
-                "cuteness":5,
-                "IQ":30,
-                "humour":20,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 30,
+                "humour": 20,
+                "anger": 50,
                 "fun": 46,
-                "ln":""
+                "ln": ""
             }
-        ],"Organisers": [
+        ],
+        "Organisers": [
             {
                 "id": "organisers",
                 "name": "Anurudh",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/yNMJC9l.jpeg",
                 "ig": "",
-                "cuteness":60,
-                "IQ":80,
-                "humour":20,
-                "anger":90,
+                "cuteness": 60,
+                "IQ": 80,
+                "humour": 20,
+                "anger": 90,
                 "fun": 46,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "organisers",
                 "name": "Swastik",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/Jplbz15.jpeg",
                 "ig": "",
-                "cuteness":60,
-                "IQ":80,
-                "humour":20,
-                "anger":90,
+                "cuteness": 60,
+                "IQ": 80,
+                "humour": 20,
+                "anger": 90,
                 "fun": 46,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "organisers",
                 "name": "Anushka",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/SmqbVeM.jpeg",
                 "ig": "",
-                "cuteness":60,
-                "IQ":80,
-                "humour":20,
-                "anger":90,
+                "cuteness": 60,
+                "IQ": 80,
+                "humour": 20,
+                "anger": 90,
                 "fun": 46,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "organisers",
                 "name": "Ashish",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/X88JVpU.jpeg",
                 "ig": "",
-                "cuteness":60,
-                "IQ":80,
-                "humour":20,
-                "anger":90,
+                "cuteness": 60,
+                "IQ": 80,
+                "humour": 20,
+                "anger": 90,
                 "fun": 46,
-                "ln":""
+                "ln": ""
             }
         ]
-	},
-    "2023":{
-		"Organisers": [
+    },
+    "2023": {
+        "Organisers": [
             {
                 "id": "organisers",
                 "name": "Miraj ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/M2QnZks.jpeg",
                 "ig": "https://www.instagram.com/mirraajjjj/",
-                "cuteness":89,
-                "IQ":77,
-                "humour":80,
-                "anger":30,
-                "fun":82,                
-                "ln":""
-                },{
+                "cuteness": 89,
+                "IQ": 77,
+                "humour": 80,
+                "anger": 30,
+                "fun": 82,
+                "ln": ""
+            },
+            {
                 "id": "organisers",
                 "name": "Ashutosh ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/tJ8pjtb.jpeg",
                 "ig": "https://www.instagram.com/ashutosh_69_/",
-                "cuteness":52,
-                "IQ":66,
-                "humour":62,
-                "anger":79,
+                "cuteness": 52,
+                "IQ": 66,
+                "humour": 62,
+                "anger": 79,
                 "fun": 60,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "organisers",
                 "name": "Utkarsh ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/9pu3jaq.jpeg",
                 "ig": "https://www.instagram.com/utkarshgoyal/",
-                "cuteness":57,
-                "IQ":85,
-                "humour":54,
-                "anger":54,
+                "cuteness": 57,
+                "IQ": 85,
+                "humour": 54,
+                "anger": 54,
                 "fun": 83,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "organisers",
                 "name": "Ritu ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/0OpKA6l.jpeg",
                 "ig": "https://www.instagram.com/rituuuchoudhary/",
-                "cuteness":94,
-                "IQ":61,
-                "humour":21,
-                "anger":63,
+                "cuteness": 94,
+                "IQ": 61,
+                "humour": 21,
+                "anger": 63,
                 "fun": 76,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "organisers",
                 "name": "Pratham ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/WpiL60T.jpeg",
                 "ig": "https://www.instagram.com/prxthaam/",
-                "cuteness":61,
-                "IQ":60,
-                "humour":71,
-                "anger":61,
+                "cuteness": 61,
+                "IQ": 60,
+                "humour": 71,
+                "anger": 61,
                 "fun": 80,
-                "ln":""
+                "ln": ""
             }
         ],
         "Web-Dev Team": [
+            {
+                "id": "Web-Dev-Team",
+                "name": "Samarth ",
+                "info": "TEDxDAVV ",
+                "image": "https://imgur.com/XVAuQVJ.jpeg",
+                "ig": "https://www.instagram.com/samarth__sv/",
+                "cuteness": 85,
+                "IQ": 40,
+                "humour": 70,
+                "anger": 10,
+                "fun": 76,
+                "ln": ""
+            },
             {
                 "id": "Web-Dev-Team",
                 "name": "Rachita ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/YfeCrkU.jpeg",
                 "ig": "https://www.instagram.com/rchta_dshre/",
-                "cuteness":95,
-                "IQ":70,
-                "humour":20,
-                "anger":50,
+                "cuteness": 95,
+                "IQ": 70,
+                "humour": 20,
+                "anger": 50,
                 "fun": 86,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Web-Dev-Team",
                 "name": "Shubhansh ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/nsewDyz.jpeg",
                 "ig": "https://www.instagram.com/shubhansh364/",
-                "cuteness":25,
-                "IQ":70,
-                "humour":80,
-                "anger":10,
+                "cuteness": 25,
+                "IQ": 70,
+                "humour": 80,
+                "anger": 10,
                 "fun": 46,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Web-Dev-Team",
                 "name": "Nishant ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/iWm1s4H.jpeg",
                 "ig": "https://www.instagram.com/nishant0760/",
-                "cuteness":35,
-                "IQ":80,
-                "humour":90,
-                "anger":40,
+                "cuteness": 35,
+                "IQ": 80,
+                "humour": 90,
+                "anger": 40,
                 "fun": 36,
-                "ln":""
-            },{
-                "id": "Web-Dev-Team",
-                "name": "Samarth ",
-                "info": "TEDxDAVV ",
-                "image": "https://imgur.com/XVAuQVJ.jpeg",
-                "ig": "https://www.instagram.com/samarth__sv/",
-                "cuteness":85,
-                "IQ":40,
-                "humour":70,
-                "anger":10,
-                "fun": 76,
-                "ln":""
+                "ln": ""
             }
         ],
         "Sponsorship Team": [
@@ -188,24 +199,25 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/jHgMyFI.jpeg",
                 "ig": "https://www.instagram.com/sahil_lalwani._/",
-                "cuteness":12,
-                "IQ":40,
-                "humour":60,
-                "anger":20,
+                "cuteness": 12,
+                "IQ": 40,
+                "humour": 60,
+                "anger": 20,
                 "fun": 76,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Sponsors-Team",
                 "name": "Shreya ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/Y2YY9YB.jpeg",
                 "ig": "https://www.instagram.com/_shreya_maheshwari07/",
-                "cuteness":15,
-                "IQ":50,
-                "humour":60,
-                "anger":70,
+                "cuteness": 15,
+                "IQ": 50,
+                "humour": 60,
+                "anger": 70,
                 "fun": 26,
-                "ln":""
+                "ln": ""
             },
             {
                 "id": "Sponsors-Team",
@@ -213,36 +225,38 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/tGwFMQo.jpeg",
                 "ig": "",
-                "cuteness":15,
-                "IQ":90,
-                "humour":30,
-                "anger":60,
+                "cuteness": 15,
+                "IQ": 90,
+                "humour": 30,
+                "anger": 60,
                 "fun": 76,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Sponsors-Team",
                 "name": "Atharva ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/UYBcwvw.jpeg",
                 "ig": "https://www.instagram.com/atthharvv/",
-                "cuteness":5,
-                "IQ":30,
-                "humour":20,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 30,
+                "humour": 20,
+                "anger": 50,
                 "fun": 46,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Sponsors-Team",
                 "name": "Attar ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/hz5w6eD.jpeg",
                 "ig": "https://www.instagram.com/mohammedattar_15253/",
-                "cuteness":35,
-                "IQ":30,
-                "humour":90,
-                "anger":20,
+                "cuteness": 35,
+                "IQ": 30,
+                "humour": 90,
+                "anger": 20,
                 "fun": 66,
-                "ln":""
+                "ln": ""
             }
         ],
         "Marketing Team": [
@@ -252,12 +266,12 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/0C3X2Ha.jpeg",
                 "ig": "https://www.instagram.com/anshul__sharma_04/",
-                "cuteness":25,
-                "IQ":10,
-                "humour":40,
-                "anger":50,
+                "cuteness": 25,
+                "IQ": 10,
+                "humour": 40,
+                "anger": 50,
                 "fun": 86,
-                "ln":""
+                "ln": ""
             },
             {
                 "id": "Marketing-Team",
@@ -265,52 +279,53 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/AWHfdjz.jpeg",
                 "ig": "https://www.instagram.com/vamaarts/",
-                "cuteness":85,
-                "IQ":30,
-                "humour":20,
-                "anger":20,
+                "cuteness": 85,
+                "IQ": 30,
+                "humour": 20,
+                "anger": 20,
                 "fun": 86,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Marketing-Team",
                 "name": "Sanjeevni ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/7w1EdCz.jpeg",
                 "ig": "https://www.instagram.com/thesanjeevani/",
-                "cuteness":75,
-                "IQ":90,
-                "humour":20,
-                "anger":60,
+                "cuteness": 75,
+                "IQ": 90,
+                "humour": 20,
+                "anger": 60,
                 "fun": 26,
-                "ln":""
+                "ln": ""
             }
         ],
         "Event Management": [
-            
             {
                 "id": "Management-Team",
                 "name": "Jay ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/uHy2GeJ.jpeg",
                 "ig": "https://www.instagram.com/jay_bicarbonate/",
-                "cuteness":90,
-                "IQ":70,
-                "humour":70,
-                "anger":10,
+                "cuteness": 90,
+                "IQ": 70,
+                "humour": 70,
+                "anger": 10,
                 "fun": 80,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Management-Team",
                 "name": "Yati ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/H5SivgK.jpeg",
                 "ig": "https://www.instagram.com/yati_j_ain/",
-                "cuteness":75,
-                "IQ":30,
-                "humour":20,
-                "anger":50,
+                "cuteness": 75,
+                "IQ": 30,
+                "humour": 20,
+                "anger": 50,
                 "fun": 46,
-                "ln":""
+                "ln": ""
             },
             {
                 "id": 1,
@@ -318,50 +333,52 @@
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/FowUOY4.jpeg",
                 "ig": "https://www.instagram.com/soumya_kare_/",
-                "cuteness":65,
-                "IQ":70,
-                "humour":20,
-                "anger":80,
+                "cuteness": 65,
+                "IQ": 70,
+                "humour": 20,
+                "anger": 80,
                 "fun": 56,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": 1,
                 "name": "Rashi ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/UwvgCPH.jpeg",
                 "ig": "https://www.instagram.com/_rashi_13/",
-                "cuteness":25,
-                "IQ":60,
-                "humour":70,
-                "anger":30,
+                "cuteness": 25,
+                "IQ": 60,
+                "humour": 70,
+                "anger": 30,
                 "fun": 46,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": 1,
                 "name": "Ojas ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/UBxBqku.jpeg",
                 "ig": "https://www.instagram.com/ojastiwari5/",
-                "cuteness":35,
-                "IQ":50,
-                "humour":60,
-                "anger":50,
+                "cuteness": 35,
+                "IQ": 50,
+                "humour": 60,
+                "anger": 50,
                 "fun": 46,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": 1,
                 "name": "Priyanshi ",
                 "info": "TEDxDAVV ",
                 "image": "https://imgur.com/HBv8iek.jpeg",
                 "ig": "https://www.instagram.com/priyanshigothwal_29/",
-                "cuteness":5,
-                "IQ":30,
-                "humour":20,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 30,
+                "humour": 20,
+                "anger": 50,
                 "fun": 86,
-                "ln":""
+                "ln": ""
             }
-            
         ],
         "Curation Team": [
             {
@@ -370,24 +387,25 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/pXuqGA6.jpeg",
                 "ig": "https://www.instagram.com/adeity_6/",
-                "cuteness":5,
-                "IQ":30,
-                "humour":50,
-                "anger":70,
+                "cuteness": 5,
+                "IQ": 30,
+                "humour": 50,
+                "anger": 70,
                 "fun": 26,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Curation-Team",
                 "name": "Komal ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/GzfzBkn.jpeg",
                 "ig": "https://www.instagram.com/_.komal.67_/",
-                "cuteness":85,
-                "IQ":30,
-                "humour":80,
-                "anger":30,
+                "cuteness": 85,
+                "IQ": 30,
+                "humour": 80,
+                "anger": 30,
                 "fun": 16,
-                "ln":""
+                "ln": ""
             },
             {
                 "id": "Curation-Team",
@@ -395,36 +413,38 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/yyjX5hv.jpeg",
                 "ig": "https://www.instagram.com/tiwarisamriddhi_/",
-                "cuteness":95,
-                "IQ":30,
-                "humour":20,
-                "anger":50,
+                "cuteness": 95,
+                "IQ": 30,
+                "humour": 20,
+                "anger": 50,
                 "fun": 76,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Curation-Team",
                 "name": "Niharika ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/b0fgrUx.jpeg",
                 "ig": "https://www.instagram.com/04_niharika/",
-                "cuteness":25,
-                "IQ":60,
-                "humour":20,
-                "anger":50,
+                "cuteness": 25,
+                "IQ": 60,
+                "humour": 20,
+                "anger": 50,
                 "fun": 16,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Curation-Team",
                 "name": "Aastha ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/Dsk1L5y.jpeg",
                 "ig": "",
-                "cuteness":95,
-                "IQ":10,
-                "humour":60,
-                "anger":80,
+                "cuteness": 95,
+                "IQ": 10,
+                "humour": 60,
+                "anger": 80,
                 "fun": 46,
-                "ln":""
+                "ln": ""
             }
         ],
         "Design Team": [
@@ -434,24 +454,25 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/IichnZZ.jpeg",
                 "ig": "https://www.instagram.com/jaizistic/",
-                "cuteness":5,
-                "IQ":60,
-                "humour":70,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 60,
+                "humour": 70,
+                "anger": 50,
                 "fun": 96,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Design-Team",
                 "name": "Sajal ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/IRR99gs.jpeg",
                 "ig": "https://www.instagram.com/s_j_a_l_g_p_t_a/",
-                "cuteness":5,
-                "IQ":80,
-                "humour":20,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 80,
+                "humour": 20,
+                "anger": 50,
                 "fun": 96,
-                "ln":""
+                "ln": ""
             },
             {
                 "id": "Design-Team",
@@ -459,64 +480,66 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/X9V2wfy.jpeg",
                 "ig": "https://www.instagram.com/harshada.mulay/",
-                "cuteness":5,
-                "IQ":30,
-                "humour":20,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 30,
+                "humour": 20,
+                "anger": 50,
                 "fun": 96,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Design-Team",
                 "name": "Ishika ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/rSLjXey.jpeg",
                 "ig": "https://www.instagram.com/ishikairen/",
-                "cuteness":5,
-                "IQ":10,
-                "humour":60,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 10,
+                "humour": 60,
+                "anger": 50,
                 "fun": 96,
-                "ln":""
+                "ln": ""
             }
         ],
         "Production Team": [
-            
             {
                 "id": "Production-Team",
                 "name": "Uday ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/xMZCirX.jpeg",
                 "ig": "https://www.instagram.com/udaychouhan5312/",
-                "cuteness":75,
-                "IQ":80,
-                "humour":40,
-                "anger":10,
+                "cuteness": 75,
+                "IQ": 80,
+                "humour": 40,
+                "anger": 10,
                 "fun": 90,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Production-Team",
                 "name": "Shubh ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/hDMmRzS.jpeg",
                 "ig": "https://www.instagram.com/_snapped.__/",
-                "cuteness":5,
-                "IQ":30,
-                "humour":20,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 30,
+                "humour": 20,
+                "anger": 50,
                 "fun": 46,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Production-Team",
                 "name": "Aryan ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/dUa6hZ6.jpeg",
                 "ig": "https://www.instagram.com/_aryan.vyas_/",
-                "cuteness":75,
-                "IQ":20,
-                "humour":40,
-                "anger":50,
+                "cuteness": 75,
+                "IQ": 20,
+                "humour": 40,
+                "anger": 50,
                 "fun": 46,
-                "ln":""
+                "ln": ""
             }
         ],
         "Content Team": [
@@ -526,24 +549,25 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/XxrL7Yp.jpeg",
                 "ig": "https://www.instagram.com/renukakhatwani/",
-                "cuteness":5,
-                "IQ":80,
-                "humour":20,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 80,
+                "humour": 20,
+                "anger": 50,
                 "fun": 86,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Content-Team",
                 "name": "Tejaswini ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/aa7wk5e.jpeg",
                 "ig": "https://www.instagram.com/velvety_vibe/",
-                "cuteness":5,
-                "IQ":90,
-                "humour":20,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 90,
+                "humour": 20,
+                "anger": 50,
                 "fun": 66,
-                "ln":""
+                "ln": ""
             },
             {
                 "id": "Content-Team",
@@ -551,12 +575,12 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/a4E7RdM.jpeg",
                 "ig": "https://www.instagram.com/vartikashrivastavaa/",
-                "cuteness":85,
-                "IQ":80,
-                "humour":20,
-                "anger":50,
+                "cuteness": 85,
+                "IQ": 80,
+                "humour": 20,
+                "anger": 50,
                 "fun": 46,
-                "ln":""
+                "ln": ""
             }
         ],
         "Art Team": [
@@ -566,24 +590,25 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/wRbW7ps.jpeg",
                 "ig": "",
-                "cuteness":85,
-                "IQ":20,
-                "humour":15,
-                "anger":40,
+                "cuteness": 85,
+                "IQ": 20,
+                "humour": 15,
+                "anger": 40,
                 "fun": 96,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Art-Team",
                 "name": "Surbhi ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/74rp28g.jpeg",
                 "ig": "https://www.instagram.com/surbhibhaskerr/",
-                "cuteness":85,
-                "IQ":10,
-                "humour":5,
-                "anger":80,
+                "cuteness": 85,
+                "IQ": 10,
+                "humour": 5,
+                "anger": 80,
                 "fun": 96,
-                "ln":""
+                "ln": ""
             },
             {
                 "id": "Art-Team",
@@ -591,25 +616,26 @@
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/Gy7rgaK.jpeg",
                 "ig": "",
-                "cuteness":85,
-                "IQ":10,
-                "humour":20,
-                "anger":50,
+                "cuteness": 85,
+                "IQ": 10,
+                "humour": 20,
+                "anger": 50,
                 "fun": 96,
-                "ln":""
-            },{
+                "ln": ""
+            },
+            {
                 "id": "Art-Team",
                 "name": "Saharsh ",
                 "info": "TEDxDAVV",
                 "image": "https://imgur.com/MOgNFip.jpeg",
                 "ig": "https://www.instagram.com/saharsh.upadhyay/",
-                "cuteness":5,
-                "IQ":30,
-                "humour":20,
-                "anger":50,
+                "cuteness": 5,
+                "IQ": 30,
+                "humour": 20,
+                "anger": 50,
                 "fun": 46,
-                "ln":""
+                "ln": ""
             }
         ]
-	}
+    }
 }
