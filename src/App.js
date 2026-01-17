@@ -1,66 +1,92 @@
-import "./App.css"
-import Navbar from "./pages/Navbar/Navbar"
-import Ticket from './pages/Ticket/Ticket';
-import Footer from "./pages/Footer/Footer"
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import MergedPage from './component/MergedPage';
-import SpeakerPage from './component/SpeakerPage';
-import HeroParallax from './pages/hero-parallax';
-import samarth from './Images/reel2.jpg';
-import Whyus2 from './pages/Whyus2';
-import Flip from './pages/Flip';
-import Teams from './components/Teams';
-import Header from './components/Header';
-import Years from './components/Years';
-import data from './cardData.json';
-import { useState } from 'react';
-import ShubhanshTeams from "./ShubhanshTeams";
-import Main from "./pages/Main/Main";
 
+import './App.css';
 
+import Loader from './Components/Loader/Loader';
+import Footer from './Components/Footer/Footer';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Changed import statement
+import Navbar from './Components/Navbar/Navbar';
+
+import HeroParallax from "./pages/Gallery/hero-parallax"
+import Main from "./Components/Main/Main";
+import TeamSection from "./Components/shubhansh files/TeamSection"
+import Subh from "./Components/Subhanshpage/Subh";
+
+import React, { useState, useEffect } from 'react';
+import Buy from './Components/Buynow/Buy';
+import Layout from './Components/Buynow/Layout';
 
 function App() {
+  const [showLoader, setShowLoader] = useState(true);
+  const [isLoaded, setIsLoaded] = useState(false);
   const productsData = [
-    { title: 'Product 1', link: '', thumbnail: samarth },
-    { title: 'Product 2', link: '', thumbnail: samarth },
-    { title: 'Product 3', link: '', thumbnail: samarth },
-    { title: 'Product 4', link: '#', thumbnail: samarth },
-    { title: 'Product 5', link: '#', thumbnail: samarth },
-    { title: 'Product 6', link: '#', thumbnail: samarth },
-    { title: 'Product 7', link: '#', thumbnail: samarth },
-    { title: 'Product 8', link: '#', thumbnail: samarth },
-    { title: 'Product 9', link: '#', thumbnail: samarth },
-    { title: 'Product 10', link: '#', thumbnail: samarth },
-    { title: 'Product 11', link: '#', thumbnail: samarth },
-    { title: 'Product 12', link: '#', thumbnail: samarth },
-    { title: 'Product 13', link: '#', thumbnail: samarth },
-    { title: 'Product 14', link: '#', thumbnail: samarth },
-    { title: 'Product 15', link: '#', thumbnail: samarth },
+    { title: '', link: '', thumbnail: "https://imgur.com/otCQ1nD.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/QEeDovI.png" },
+    { title: '', link: '', thumbnail: 'https://imgur.com/QrWLjTB.png' },
+    { title: '', link: '', thumbnail: "https://imgur.com/2ynO99M.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/QoHDduf.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/EKyDkLT.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/NQ81zNH.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/ZDCwEiv.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/8qF1DmB.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/0ThBbnS.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/c6hDt12.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/a8OJfU3.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/ba4Qw2V.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/lUuIyf7.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/TusM5x3.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/aksks8I.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/jZQPRRB.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/Zx353W2.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/dCvMOYS.png" },
+    { title: '', link: '', thumbnail: "https://imgur.com/2cZHIYf.png" },
+    { title: 'Aryan Vijayvargiya', link: '', thumbnail: "https://imgur.com/Qebc43j.png" },
+    { title: 'Dr. Ragini Makkhar', link: '', thumbnail: "https://imgur.com/azvGCcl.png" },
+    { title: 'Abhishek Mishra', link: '', thumbnail: "https://imgur.com/VB6xoI2.png" },
+    { title: 'Bhaskar Indrakanti', link: '', thumbnail: "https://imgur.com/iV9tnue.png" },
+    { title: 'Akshay Singh', link: '', thumbnail: "https://imgur.com/L2tS0Cz.png" },
     // Add more product data as needed
   ];
-  const [info ,setInfo] = useState(data);
-
-  // console.log(info);
-  let coreTeam = info[2024]['Core Team'];
-  // console.log(coreTeam);
-
-  let webDev = info[2024]['Web Dev Team'];
-  // console.log(webDev);
+  
  
+  
+  useEffect(() => {
+    // Simulate loading time for 5 seconds
+    const loadingTimeout = setTimeout(() => {
+      setIsLoaded(true);
+      setShowLoader(false);
+    }, 6000);
+
+    // Check if content is loaded before the timeout
+    window.onload = () => {
+      setIsLoaded(true);
+      // clearTimeout(loadingTimeout); // Cancel the timeout if content is loaded
+    };
+
+    // Clean up
+    return () => clearTimeout(loadingTimeout);
+  }, []);
 
   return (
-    <div  className=''>
-    <BrowserRouter>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<Main/>}/>
-        <Route path='/about' element={<Flip/>}/>
-        <Route path='/gallery' element={<HeroParallax products={productsData}/>}/>
-        <Route path='/teams' element={<ShubhanshTeams/>}/>
-        
-      </Routes>
-       <Footer/>
-      </BrowserRouter>
+    <div className="App">
+      {showLoader && <Loader />} {/* Show Loader component if showLoader is true */}
+      {!isLoaded && !showLoader && <Loader />} {/* Show Loader component until resources are loaded */}
+      {isLoaded && !showLoader && (
+        <div className='hey'>
+          <Router>
+            <Navbar />
+            <Layout>
+            <Routes>
+              <Route path='/' element={<Main />} />
+              <Route path='/gallery' element={<HeroParallax products={productsData} />} />
+              <Route path='/sponsors' element={<Subh />} />
+              <Route path='/teams' element={<TeamSection />} />
+            </Routes>
+            </Layout>
+            <Footer />
+          </Router>
+        </div>
+      )}
     </div>
   );
 }
